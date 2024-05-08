@@ -147,15 +147,13 @@ $('.owl-carousel.testimonial').owlCarousel({
             items: 1
         },
         750: {
-            items: 2
+            items: 1
         },
         1000: {
-            items: 3
+            items: 2
         }
     }
 })
-
-// ---------------------- aos (animation on scroll) --------------------//
 
 window.addEventListener('load', () => {
     AOS.init({
